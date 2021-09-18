@@ -1,0 +1,257 @@
+
+.Div-Container {
+	color: #434343;
+	overflow-x: hidden;
+}
+
+.Img-Frames {
+	position: absolute;
+	width: 100%;
+	top: 100px;
+    z-index: -1;
+}
+
+.dropdown-menu {
+	transform: translate3d(-160px, 38px, 0px) !important;
+}
+
+.Header-Clubs {
+	background-color: #1E2337 !important;
+}
+
+.Header-Clubs .second_menu button span {
+	color: #FFFFFF;
+}
+
+.Header-Clubs .content-header .img-burger {
+	background-color: #FFFFFF;
+}
+
+.Header-Clubs .content-header .heading .header-logo {
+	background-image: url('../../assets/clubs/ecosystem_clubs_yellow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.Header-Clubs .content-header .heading .header-ecosystem {
+	background-image: url('../../assets/clubs/ecosystem_clubs_yellow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 12px;	
+}
+
+.Img-Header-Country {
+	position: absolute;
+	right: 170px;
+	width: 25px;
+	height: 25px;
+}
+
+.Div-Footer {
+    /*position: fixed;*/
+    /*bottom: 0px;*/
+    width: 100%;
+    padding: 60px 80px;
+    background-color: #FAFF87;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Div-Footer img {
+    width: 300px;
+    height: 50px;
+}
+
+.Div-Footer p {
+    margin-bottom: 0px;
+}
+
+.Div-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px !important;
+}
+
+.Div-Content .Img-Live-Best-Clubs {
+    width: 550px;
+    height: 71px;
+    margin-top: 120px;
+}
+
+.Div-Content .P-Title {
+    max-width: 520px;
+    margin: 20px 10px;
+}
+
+.Div-Category-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.Div-Category {
+    width: 220px;
+    height: 220px;    
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 0 8px 26px rgba(144, 82, 183, 0.3) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 10px;
+}
+
+.Div-Category:focus {
+    outline: none;
+}
+
+.Div-Category:active {
+    background-color: #FFFFFF;
+}
+
+.Div-Category p {
+    margin-bottom: 0px;
+    color: #434343;
+}
+
+.Music {
+    background: #DEABFF;
+    border: 2px solid #B655F5;
+}
+
+.Wellness {
+    background: #A4FFAB;
+    border: 2px solid #3CDD49;
+}
+
+.Culture {
+    background: #FAFF87;
+    border: 2px solid #D6DE26;
+}
+
+.Sport {
+    background: #FFA4A4;
+    border: 2px solid #E38585;
+}
+
+.Shopping {
+    background: #7BFFF2;
+    border: 2px solid #47DDCE;
+}
+
+.Travel {
+    background: #FFC369;
+    border: 2px solid #DD9C3C;
+}
+
+.Property {
+    background: #FFBAFF;
+    border: 2px solid #E283E2;
+}
+
+.Cars {
+    background: #5BCBFF;
+    border: 2px solid #139BDA;
+}
+
+@media screen and (max-width: 768px) {
+
+  .Header-Clubs .content-header .heading .header-logo {
+    display: none;
+  }
+
+	.Img-Header-Country {
+		display: none;
+	}
+
+  .Div-Footer {
+      flex-direction: column;
+      padding: 30px 0px;
+  }
+
+  .Div-Footer img {
+      margin-bottom: 20px;
+  }
+
+  .Div-Footer p {
+      font-size: 0.8rem;
+      text-align: center;
+  }
+
+  .Div-Category {
+      width: 150px;
+      height: 150px;    
+      box-sizing: border-box;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+      margin: 10px;
+  }
+
+  .Div-Content .Img-Live-Best-Clubs {
+      width: 350px;
+      height: 45px;
+  }
+
+  .Div-Content .Div-Category-Container {
+    margin-top: 0px !important;
+  }
+
+  .Music {
+    border: none;
+  }
+
+  .Wellness {
+    border: none;
+  }
+
+  .Culture {
+    border: none;
+  }
+
+  .Sport {
+    border: none;
+  }
+
+  .Shopping {
+    border: none;
+  }
+
+  .Travel {
+    border: none;
+  }
+
+  .Property {
+    border: none;
+  }
+
+  .Cars {
+    border: none;
+  }
+}
+
+
+
+
+

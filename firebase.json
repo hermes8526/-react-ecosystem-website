@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "target": "ecosystem-aaf77",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/retailloyaltyclub",
+        "destination": "/EcoPass Loyalty Club.pdf"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
